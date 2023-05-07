@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Asesoría de Matemáticas</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Asesoría de Matemáticas</h1>
+		<nav>
+			<ul>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="servicios">
+			<h2>Nuestros Servicios</h2>
+			<ul>
+				<li>Asesoría en álgebra</li>
+				<li>Asesoría en geometría</li>
+				<li>Asesoría en cálculo</li>
+				<li>Preparación para exámenes</li>
+				<li>Tutorías personalizadas</li>
+			</ul>
+		</section>
+		<section id="testimonios">
+			<h2>Testimonios</h2>
+			<blockquote>
+				<p>"Gracias a la asesoría de Matemáticas pude mejorar mi desempeño académico y aprobar mi examen."</p>
+				<footer>- Ana Sánchez</footer>
+			</blockquote>
+			<blockquote>
+				<p>"Excelente atención y disponibilidad. Muy recomendable."</p>
+				<footer>- Carlos González</footer>
+			</blockquote>
+		</section>
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form action="enviar.php" method="POST">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" id="correo" name="correo" required>
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" required></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Asesoría de Matemáticas. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
